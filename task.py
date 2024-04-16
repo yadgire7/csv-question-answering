@@ -36,7 +36,7 @@ bnb_config = transformers.BitsAndBytesConfig(
 )
 
 # initialize HF token
-hf_auth = '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'
+hf_auth = ''
 model_config = transformers.AutoConfig.from_pretrained(
     model_id,
     use_auth_token=hf_auth
